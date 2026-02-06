@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { -webkit-tap-highlight-color: transparent; }
+
+.safe { padding-bottom: env(safe-area-inset-bottom); padding-top: env(safe-area-inset-top); }
+
+.glow { box-shadow: 0 0 0 1px rgba(255,90,61,.35), 0 0 24px rgba(255,90,61,.18); }
+.neon { box-shadow: 0 0 0 1px rgba(76,255,122,.35), 0 0 24px rgba(76,255,122,.18); }
